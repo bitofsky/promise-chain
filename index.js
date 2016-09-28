@@ -2,8 +2,8 @@
 
 class PromiseChain extends Promise {
     constructor(resolver = resolve => resolve()) {
-        super(resolver);
-        this.promise = Promise.resolve();
+        super(resolve => resolve());
+        this.promise = new Promise(resolver);
     }
     set then(fn) {
         this.promise = this.promise.then(fn);
