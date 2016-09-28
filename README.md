@@ -1,5 +1,5 @@
-# promise-chain
-Javascript promise-chain module
+# promise.chain
+Javascript promise.chain module
 
 ## Reduce Promise depth
 
@@ -30,9 +30,9 @@ function asyncProcess() {
 }
 ```
 
-### Using promise-chain
+### Using promise.chain
 ``` Javascript
-const PromiseChain = require('promise-chain');
+const PromiseChain = require('promise.chain');
 
 function asyncProcess() {
 
