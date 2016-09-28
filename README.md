@@ -1,6 +1,11 @@
 # promise.chain
 Javascript promise.chain module
 
+## How to use
+```
+npm install promise.chain
+```
+
 ## Reduce Promise depth
 
 ### Using Promise
